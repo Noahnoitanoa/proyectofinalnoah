@@ -1,0 +1,18 @@
+.contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .contador-cantidad{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+
+        input{
+            width: 30%;
+            font-family: $fuente;
+            font-size: 14px;
+        };
+    }
+}
