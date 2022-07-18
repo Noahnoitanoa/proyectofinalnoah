@@ -5,6 +5,7 @@ import { obtenerProductos } from '../../services/firebase/firestore'
 import { useAsync } from '../../hooks/useAsync'
 import useNotification from "../../hooks/useNotificacion"
 
+import { getDocs } from 'firebase/firestore'
 const ItemListContainer = () => { 
     const {categoria} = useParams()
     
