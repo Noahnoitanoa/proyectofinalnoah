@@ -1,14 +1,14 @@
 # A TODO COLOR Ecommerce de productos para el cuidado de las uñas y cursos de manicurista profesional desarrollado con React
 
-La estructura de los productos se comprende dentro de la colección "productos".
+estructura de los productos  dentro de la colección "productos".
 
 Cada producto se compone de:
 * nombre (string)
-* cateoria (string)
+* categoria (string)
 * descripcion (string)
 * precio (number)
 * stock (number)
-* imagen (string (es una URL a un directorio de Google Drive))
+* imagen (string (es una URL a una imagen sacada de paginas de internet))
 
 
 Las órdenes de compra son generadas programáticamente mediante un funcionalidad de la aplicación.

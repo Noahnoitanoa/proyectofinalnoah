@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 body{
+
+    background-image: url("https://cdn.pixabay.com/photo/2022/01/22/19/14/business-card-6958767_1280.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
     margin: 0;
     padding: 0;
     max-width: 100vw;
@@ -31,3 +38,4 @@ h2{
 .div{
     margin-top: 0px;
 }
+
