@@ -1,19 +1,14 @@
-import { NavLink } from 'react-router-dom'
+import { navBarlist } from '../../helpers/navbarlist';
+import { NavLink } from 'react-router-dom';
 
-const Menu = ({categorias}) =>{
+const Menu = () =>{
 
     return(
-        <>  
-            {categorias.map( c =>
-                <li key={c.nombre}>
-                    <NavLink
-                        to={`/categoria/${c.nombre}`}
-                        className={({isActive}) => isActive ? 
-                        'activo' : 'normal'}>{c.nombre.replace(/_/g, ' ').toUpperCase()}
-                    </NavLink>
-                </li>
-            )}
-        </>
+        <nav>
+            <div className='categories'>
+                {navBarlist.map(navBarlist => <NavLink to={`categoria/${navBarlist.category}`} key={navBarlist.id} className={({ isActive }) => isActive ? 'ActiveCategory' : '' } >{navBarlist.category }</NavLink>)} 
+            </div>
+        </nav>
     )
 }
 

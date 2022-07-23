@@ -53,6 +53,29 @@ Recordar siempre estar ubicado en el directorio raíz:
 
 La aplicación se ejecutará en su servidor local:
 
+-----------------------------------------------------------
+# Atodocolorapp
 
+> Ecommerce with auth and admin dashboard.
+
+This product is being built
+
+## Running Locally
+
+```bash
+$ git clone https://github.com/Noahnoitanoa/proyectofinalnoah.git
+$ npm install
+$ npm start
+```
+
+## Environment Variables
+
+See [`.env.example`](https://github.com/Noahnoitanoa/proyectofinalnoah.git/main/.env.example) for an example.
+
+## Built Using
+
+- [Create-React-App](https://create-react-app.dev/)
+- [Firebase](https://firebase.com)
+- [Chakra UI](https://chakra-ui.com/)
 
 
